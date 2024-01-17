@@ -1,0 +1,24 @@
+1-Required tool to grenerate the pdf, run this command:
+sudo apt-get install -y enscript
+
+2-Navigate to Mojaks-Mix directory, for example: 
+cd Mojaks-Mix
+
+3-Find the current directory path, and copy it to clipboard:
+pwd
+*Let's say the output is /home/yourusername/Mojaks-Mix.
+
+4-Make sure your script is executable:
+chmod +x /home/yourusername/Mojaks-Mix/Controller.sh 
+
+5-Edit your Bash configuration file (~/.bashrc):
+	nano ~/.bashrc
+
+	-Add the directory to the PATH variable, and alias in :
+	    alias Mojaks-Mix='/home/yourusername/Mojaks-Mix/Controller.sh'
+
+6-Source the updated configuration file:
+source ~/.bashrc
+*to make the changes take effect in your current session.
+
+7-Now you can use the tool, for more watch this video: https://youtu.be/V4XCs2IBdLs
